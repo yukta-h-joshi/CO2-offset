@@ -1,0 +1,67 @@
+body {
+   
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.container {
+    max-width: 600px;
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-top: 4px solid #27ae60; /* That environmental green */
+    margin:2px;
+}
+.silkscreen-bold {
+  font-family: "Press Start 2P", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p{
+    border-color: grey;
+    border-radius: 5px;
+    border-style:outset;
+    background-color: aquamarine;
+    width:10cm;
+    padding-top: 1cm;
+
+}
+
+
+h1 {
+    font-weight: 700;
+    font-family: silkscreen, Tahoma, sans-serif;
+    color: #25844b;
+}
+
+.subtitle {
+    color: #27ae60;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #2c2c2c;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #27ae60;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
