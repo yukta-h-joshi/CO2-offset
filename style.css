@@ -1,67 +1,68 @@
 body {
    
-    color: #e0e0e0;
+    color: #0B130E;
     font-family: 'Inter', sans-serif;
 }
 
 
 
 .container {
-    max-width: 600px;
-    background: #1e1e1e;
+    width: 100%;
+    max-width: 650px;
+    margin: 40px auto;    
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    
+    border: 1px solid rgba(224, 232, 230, 0.25);
+    border-radius: 25px;
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    border-top: 4px solid #27ae60; /* That environmental green */
-    margin:2px;
-}
-.silkscreen-bold {
-  font-family: "Press Start 2P", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-p{
-    border-color: grey;
-    border-radius: 5px;
-    border-style:outset;
-    background-color: aquamarine;
-    width:10cm;
-    padding-top: 1cm;
+    border-top-color: rgba(150, 84, 68, 0.975);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 
+                0 0 40px rgba(16, 185, 129, 0.05);
+                
+    
+    animation: floatingAmbient 6s ease-in-out infinite;
 
 }
+
+h4 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.radio-group {
+    display:inline-table;
+    align-items: center;
+    gap: 12px; /* Pulls the circle right next to the text */
+    margin-bottom: 16px;
+    margin-left:2cm;
+}
+
+input{
+    width: 100%;
+    background: rgba(5, 5, 5, 0.6);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: 8px;
+    padding: 16px;
+    color: #a7f3d0; /* Muted neon text */
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    transition: all 0.4s ease;
+    
+    
+}
+
 
 
 h1 {
-    font-weight: 700;
-    font-family: silkscreen, Tahoma, sans-serif;
+    font-size:20px;
+    font-family : "orbitron", Tahoma, sans-serif;
     color: #25844b;
+    padding-top: 30px;
+    text-align: center;
 }
 
-.subtitle {
-    color: #27ae60;
-    font-size: 0.9rem;
-    font-style: italic;
-    margin-bottom: 30px;
-}
 
-input, select, button {
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    background: #2c2c2c;
-    border: 1px solid #444;
-    color: white;
-    border-radius: 6px;
-}
 
-button {
-    background-color: #27ae60;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
-button:hover {
-    background-color: #2ecc71;
-}
+
