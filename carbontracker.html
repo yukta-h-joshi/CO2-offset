@@ -12,45 +12,107 @@
 </head>
 <body background="bg2.jpg">
     <h1 >CARBON OFFSET TRACKER </h1>    
-    <h3 style="color: rgb(228, 164, 154); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:small; padding: 0.5cm;">a tool to quantize the amount of effective for finding the amount of carbon calculated by a tree depending upon  its species</h3>
-    
-    <div style="border-top: 7px; border-top-style: double; border-top-color: rgb(62, 66, 63); padding: 1cm;"></div>
     <form action="index.php" method="get">
-    <div class="container"> <h1>TREE </h1>
-        <br>
+    <div class="container">
+        <h1>TREE </h1><br>
+
         <div class="radio-group">
         <Input type="radio" id="neem" value="neem" name="tree">
-        <label FOR="NEEM">NEEM</label></div>
+
+        <label FOR="NEEM"><h4>NEEM</h4>
+            <div class="card-content">
+               <img src="neem.jpg" alt="Neem Tree" >
+               <div class="tree-info">
+                  <p>High canopy density. Outstanding carbon sequestration and soil purification capabilities.</p>
+               </div>
+            </div>
+        </label></div>
+
         <div class="radio-group">
         <Input type="radio" id="ashoka" value="ashoka" name="tree">
-        <label>ashoka</label></div>
+
+        <label FOR="ashoka"><h4>ASHOKA</h4>
+            <div class="card-content">
+               <img src="ashoka.jpg" alt="ashoka Tree" >
+               <div class="tree-info">
+                  <p>High canopy density. Outstanding carbon sequestration and soil purification capabilities.</p>
+               </div>
+            </div>
+        </label></div>
+
         <div class="radio-group">
         <Input type="radio" id="mango" value="mango" name="tree">
-        <label>MANGO</label></div>
-    </div>
-    
-    <div class="container";> <h1>SPACING</h1>
-        <br>
-        <div class="radio-group">
-        <Input type="radio" id="neem" value="neem" name="tree">
-        <label FOR="NEEM">Boundary</label></div>
-        <div class="radio-group">
-        <Input type="radio" id="ashoka" value="ashoka" name="tree">
-        <label>forest</label></div>
-        <div class="radio-group">
-        <Input type="radio" id="mango" value="mango" name="tree">
-        <label>row style</label></div>
+
+        <label FOR="mango"><h4>MANGO</h4>
+            <div class="card-content">
+               <img src="mango.jpg" alt="mango Tree" >
+               <div class="tree-info">
+                  <p>High canopy density. Outstanding carbon sequestration and soil purification capabilities.</p>
+               </div>
+            </div>
+        </label></div>
     </div>
 
+
+    
+
+     <div class="container";> <h1>SPACING</h1><br>
+        <div class="radio-group">
+
+            <Input type="radio" id="boundary" value="boundary" name="spacing">
+            <label FOR="boundary" ><h4>Boundary</h4>
+                <div class="card-content">
+                    <img src="boundary.jpg.png">
+                    <p>planted along perimeter leaving the center space of plot open</p>
+
+                </div>
+            </label></div>
+
+            <div class="radio-group">
+            <Input type="radio" id="forest" value="forest" name="spacing">
+            <label><h4>forest</h4>
+                <div class="card-content">
+                    <img src="forest.jpg.png">
+                    <p>Tightly packed plantations ; best for afforestation</p>
+                </div>
+            </label></div>
+
+            <div class="radio-group">
+            <Input type="radio" id="row" value="row" name="row">
+            <label ><h4>row style</h4>
+                <div class="card-content">
+                    <img src="row.jpg.png">
+                    <p>planted in rows to get ample sunlight;best for harvest</p>
+                </div>
+            </label></div>
+
+        </div>
+
+             
         
-    </div>
-    <div class="container"><h1>LAND AREA</h1><br>
+
+        </div>
+
+        <div class="container"><h1>LAND AREA</h1><br>
         <h4>
         <label >enter the area of land used</label></h4>
-        <input type="text">
+        <input type="text" padding: 0 40px 30px 40px;>
         <br><br>
     </div>
-    <button type="submit"></button>
+
+    <div class="or-container">
+       <div class="line"></div>
+       <span class="or-text">OR</span>
+       <div class="line"></div>
+    </div>
+
+    <div class="container"><h1>TREE COUNT</h1><br>
+        <p>alternatively, add the number of trees instead of  </p>
+        <h4>
+        <label >enter the area of land used</label></h4>
+        <input type="text" padding: 0 40px 30px 40px;>
+        <br><br>
+    </div>
 </form>
 </body>
     
