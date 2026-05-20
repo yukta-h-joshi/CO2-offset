@@ -4,41 +4,32 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+h1 {
+    font-size:20px;
+    font-family : "orbitron", Tahoma, sans-serif;
+    color: #25844b;
+    padding-top: 30px;
+    text-align: center;
+}
 
-
-.container {
-    width: 100%;
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
     align-self: center;
-    max-width: 450px;
-    margin: 40px auto;    
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    
-    border: 1px solid rgba(224, 232, 230, 0.25);
-    border-radius: 25px;
-    padding: 40px;
-    border-top-color: rgba(150, 84, 68, 0.975);
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 
-                0 0 40px rgba(16, 185, 129, 0.05);
-                
-    
-    animation: floatingAmbient 6s ease-in-out infinite;
-
 }
 
 h4 {
     font-family:'Courier New', Courier, monospace;
     font-size: small;
+    align-self: center;
 }
-
-.radio-group {
-    display:inline-table;
-    align-items: center;
-    gap: 12px; /* Pulls the circle right next to the text */
-    margin-bottom: 16px;
-    margin-left:2cm;
+img{
+    align-self: center;
+    border-radius: 3px;
+    border-style:inset;
+    height: 4cm;
+    width:7ch
 }
-
 input{
     width: 100%;
     background: rgba(5, 5, 5, 0.6);
@@ -53,14 +44,36 @@ input{
     
 }
 
+.container {
+    
+    margin: 40px auto;    
+    backdrop-filter: blur(12px);
+    max-width: 800px !important;
+    width: 90% !important;
+    -webkit-backdrop-filter: blur(12px);
 
 
-h1 {
-    font-size:20px;
-    font-family : "orbitron", Tahoma, sans-serif;
-    color: #25844b;
-    padding-top: 30px;
-    text-align: center;
+    
+    border: 1px solid rgba(224, 232, 230, 0.25);
+    border-radius: 25px;
+    padding: 40px;
+    border-top-color: rgba(150, 84, 68, 0.975);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 
+                0 0 40px rgba(16, 185, 129, 0.05);
+                
+    
+    animation: floatingAmbient 6s ease-in-out infinite;
+
+}
+
+
+.radio-group {
+    display:inline-table;
+    margin-right: 0.5cm;
+    align-items: center;
+    gap: 12px; /* Pulls the circle right next to the text */
+    margin-bottom: 16px;
+    margin-left:0.5cm;
 }
 
 .card-content {
@@ -75,5 +88,27 @@ h1 {
     transition: all 0.3s ease;
 }
 
+.or-container {
+    display: flex;
+    align-items: center;
+    margin: 30px 40px; /* Spacing top/bottom and sides */
+}
 
+.line {
+    flex: 1; /* Tells the line to stretch and take up all available space */
+    height: 1px;
+    background-color: rgba(11, 10, 10, 0.2); /* Thin translucent white line */
+}
 
+.or-text {
+    margin: 0 20px; /* Pushes the lines away from the text */
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 2px;
+}
+
+button{
+    background-color: #0B130E;
+    border-color: black;
+}
